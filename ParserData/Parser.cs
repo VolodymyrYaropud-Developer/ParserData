@@ -88,7 +88,7 @@ namespace ParserData
             iterator = ParseOther(packege, binaryString, iterator);
             iterator = ParseOffests(packege, binaryString, iterator);
             binaryString = AddPaddingBits(binaryString);
-            return info;
+            return packege;
         }
 
         private static string AddPaddingBits(string binaryString)
